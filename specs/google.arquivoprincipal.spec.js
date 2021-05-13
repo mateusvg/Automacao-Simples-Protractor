@@ -8,12 +8,12 @@ describe('Testes da tela de login', function(){
 	browser.waitForAngularEnabled(false);
 	// Metodo beforeEach realiza o comando antes de cada execução de IT o mesmo com AFTEREACH
 	beforeEach(function() {
-		browser.sleep(10000);
+		browser.sleep(1000);
 	  });
 	
 	// MetodoafterEach, realiza o comando depois de cada execução de IT
 	afterEach(function() {
-		browser.sleep(1000);
+		browser.sleep(12000);
 	  });
 	  
 	
